@@ -6,7 +6,9 @@ namespace Open_Lab_05._03
     {
         public string FormatNum(int num)
         {
-            throw new NotImplementedException();
+             string result = num.ToString("#,###");
+            return result;
+
         }
     }
 }
